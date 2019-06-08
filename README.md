@@ -6,8 +6,6 @@ I will be building some bulma transporte
 
 here are the links:
 
-Product landing:
+Product landing:https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/product.html
 
-
-
-Multipurpose template:
+Multipurpose template: https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/multipurpose.html
