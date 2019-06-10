@@ -1,0 +1,21 @@
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+  display: none; }
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+  display: block; }
+
+.transparent {
+  background-color: transparent !important; }
+
+* {
+  box-shadow: none !important; }
+
+.transparent {
+  background: transparent !important; }
+
+
+
+
+ 
+ 
