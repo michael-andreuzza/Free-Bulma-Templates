@@ -12,3 +12,5 @@ Multipurpose template: https://michael-andreuzza.github.io/Free-Bulma-Templates/
 
 Blog template: https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/blog.html
 
+Blog-post template:  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/blog-post.html
+
