@@ -14,3 +14,4 @@ Blog template: https://michael-andreuzza.github.io/Free-Bulma-Templates/template
 
 Blog-post template:  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/blog-post.html
 
+Music Player template:  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/musicplayer-dashboard.html
