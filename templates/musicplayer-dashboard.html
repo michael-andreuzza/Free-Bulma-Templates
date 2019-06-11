@@ -11,7 +11,11 @@
 
     <link rel="stylesheet" href="../css/musicplayer-dashboard.css">
 
-    <link rel="stylesheet" href="../css/bulma_slider.min.css/slider.css">
+
+
+
+
+
 
     <!--Fontawesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,34 +43,17 @@
 
 <body class=" has-navbar-fixed-top has-navbar-fixed-bottom has-background-black-ter">
 
-    <div class="section transparent is-paddingless is-marginless">
+    <div class="section transparent  transparent">
 
         <div class="container  transparent">
 
-            <div class="hero-head ">
+            <div class="hero-head transparent">
 
-                <nav class="navbar is-fixed-top has-background-black-ter">
+                <nav class="navbar is-spaced is-fixed-top has-background-black-ter">
                     <div class="navbar-brand shadowless">
-                        <a class="navbar-item has-text-info" href="#">
+                        <a class="navbar-item has-text-info transparent" href="#">
                             Bulma Musicplayer Dashboard
                         </a>
-                        <a class="navbar-item transparent">
-
-
-
-
-
-                            <div class="control has-icons-left  ">
-
-                                <input class="input  is-rounded is-white  has-text-white" type="search" placeholder="Search for songs,artists...">
-
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-search has-text-white"></i>
-                                </span>
-
-                            </div>
-                        </a>
-
                         <span class="navbar-burger burger is-centered" data-target="navMenu">
                             <span></span>
                             <span></span>
@@ -80,22 +67,102 @@
                         <div class="navbar-end transparent">
                             <div class="navbar-item">
 
+                                <a class="navbar-item is-size-6 has-text-info  transparent">
+                                    <div class="control has-icons-left  is-hidden-mobile ">
 
+                                        <input class="input  is-rounded is-white  has-text-white" type="search" placeholder="Search..." style="width: 200px;">
 
-                                <a class=" navbar-item  has-text-info transparent">
+                                        <span class="icon is-small is-left ">
+                                            <i class="fas fa-search has-text-white "></i>
+                                        </span>
+
+                                    </div>
+                                </a>
+
+                                <a class=" navbar-item  has-text-info transparent is-hidden-mobile is-hidden-tablet">
                                     <i class="fas fa-cog"></i>
                                 </a>
 
 
-                                <a class="navbar-item is-size-6 has-text-info  ">
+                                <a class="navbar-item is-size-6 has-text-info transparent  is-hidden-mobile is-hidden-tablet">
                                     <i class="far fa-bell"></i>
                                 </a>
-
                                 <a class="navbar-item  has-text-info  transparent">
                                     <figure class="image is-24x24 material_shadow_five">
                                         <img class="is-rounded" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/58381555_10161736483810118_4007018192961536000_n.jpg?_nc_cat=103&_nc_eui2=AeEpT3usDq3S4UtlR7JU6YOczV0KyZPGVjv5NGlv8O-3iCQhP5dUZAUGWitdqRvIx2cW3dIKEonxshEUdTSEy9wkBoLhjcDCXQGH0WvDHnCRag&_nc_ht=scontent-arn2-1.xx&oh=8009c39217b2b0c262d84b9ddd2695cc&oe=5D90DB21">
                                     </figure>
                                 </a>
+
+                                <a class="navbar-item is-size-6 has-text-info  is-hidden-desktop is-hidden-tablet">
+                                    Home
+                                </a>
+                                <a class="navbar-item is-size-6 has-text-info  is-hidden-desktop">
+                                    Radio
+                                </a>
+
+
+                                <div class="navbar-item  has-dropdown   is-hidden-desktop is-hidden-tablet">
+                                    <a class="navbar-item is-size-6 has-text-info  ">
+                                        Library
+                                    </a>
+                                    <div class="navbar-dropdown">
+                                        <a class=" navbar-item  has-text-white">
+
+                                            <i class="far fa-clock"></i>
+                                            Recently played
+
+                                        </a>
+                                        <a class=" navbar-item  has-text-white">
+
+                                            <i class="far fa-clock"></i>
+                                            Liked Songs
+
+                                        </a>
+                                        <a class=" navbar-item  has-text-white">
+
+                                            <i class="far fa-user"></i> Artists
+
+                                        </a>
+                                        <hr class="navbar-divider has-background-black">
+
+                                        <a class=" navbar-item  has-text-white">
+                                            <i class="fas fa-compact-disc has-text-white"></i>
+                                            Albums
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="navbar-item  has-dropdown   is-hidden-desktop is-hidden-tablet">
+                                    <a class="navbar-item is-size-6 has-text-info  ">
+                                        Playlist
+                                    </a>
+                                    <div class="navbar-dropdown">
+                                        <a class=" navbar-item  has-text-white">
+
+                                            R&amp;B
+
+                                        </a>
+                                        <a class=" navbar-item  has-text-white">
+
+                                            Oh Wonder
+
+                                        </a>
+                                        <a class=" navbar-item  has-text-white">
+
+                                            Workout Music
+
+                                        </a>
+                                        <hr class="navbar-divider has-background-black">
+
+                                        <a class="button  is-info  is-outlined">
+
+                                            <span class="icon is-small">
+                                                <i class="fas fa-plus-circle"></i>
+                                            </span>
+                                            <span>Add New Playlist</span>
+                                        </a>
+
+                                    </div>
+                                </div>
 
                             </div>
 
@@ -125,29 +192,25 @@
                             <div class="columns has-text-centered  is-multiline ">
 
                                 <div class="column is-2 has-background-black-ter is-hidden-mobile ">
-                                    <aside class="menu has-text-left ">
+                                    <aside class="menu has-text-left is-spaced">
 
 
-                                        <div class="box transparent">
+                                        <div class="box transparent is-spaced">
 
                                             <p class="menu-label has-text-white">
                                                 <i class="fas fa-home"></i>
                                                 Home
                                             </p>
                                             <p class="menu-label has-text-white">
-                                                <i class="fas fa-search"></i>
-                                                Browse
-                                            </p>
-                                            <p class="menu-label has-text-white">
                                                 <i class="fas fa-broadcast-tower"></i>
                                                 Radio
                                             </p>
-                                        </div>
-                                        <hr class="has-background-black-ter">
 
-                                        <div class="box transparent">
-                                            <p class="menu-label has-text-info">
-                                                YOUR LIBRARY
+                                            <hr class="has-background-black-ter">
+
+
+                                            <p class="menu-label has-text-info has-text-weight-bold	">
+                                                LIBRARY
                                             </p>
 
                                             <p class="menu-label has-text-white">
@@ -170,7 +233,7 @@
 
                                             <hr class="has-background-black-ter">
 
-                                            <p class="menu-label has-text-info">
+                                            <p class="menu-label has-text-info has-text-weight-bold">
                                                 PLAYLISTS
                                             </p>
                                             <p class="menu-label has-text-white">
@@ -190,6 +253,9 @@
                                                     <span>Add New Playlist</span>
                                                 </a>
                                             </p>
+
+                                            <hr class="has-background-black-ter">
+
                                         </div>
 
                                     </aside>
@@ -204,29 +270,24 @@
                                             <p class="title has-text-white has-text-left">
                                                 Explore
                                             </p>
-                                            <div class="columns has-text-centered  is-multiline">
+                                            <div class="columns has-text-centered is-desktop is-multiline">
 
                                                 <div class="column ">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
                                                             <figure class="image is-square">
                                                                 <img src="https://i.pinimg.com/originals/a5/a5/65/a5a56520f037c134a39b2dec1f0e13c1.png" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
                                                                             <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">name</p>
+                                                                                <p class="title">Oh Wonder</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -237,8 +298,7 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -251,25 +311,20 @@
                                                 </div>
                                                 <div class="column ">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image material_shadow_five">
                                                             <figure class="image is-square">
                                                                 <img src="https://assets.audiomack.com/younes95220/5bf2e5b3b9514d7eda82912352fd5ae293d6c495a7c050962d5f90db3c3a1c5c.jpeg?width=260&height=260&max=true" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
                                                                             <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">Name</p>
+                                                                                <p class="title">Maitre Gims</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -280,8 +335,7 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -294,25 +348,20 @@
                                                 </div>
                                                 <div class="column">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter">
+                                                        <div class="card-image  material_shadow_five">
                                                             <figure class="image is-square">
-                                                                <img src="https://townsquare.media/site/812/files/2017/06/Amine-Good-For-You.jpeg?w=980&q=75" alt="Image">
+                                                                <img src="https://i.pinimg.com/originals/3a/f0/e5/3af0e55ea66ea69e35145fb108b4a636.jpg" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
                                                                             <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">Name</p>
+                                                                                <p class="title">The Weekenb</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -323,8 +372,123 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="columns has-text-centered is-desktop is-multiline">
+
+                                                <div class="column ">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://img.discogs.com/WMloPoT9W4myPSe7EXZQYacthwc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-373693-1299187450.jpeg.jpg" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+                                                                            <div>
+                                                                                <p class="title">RHCP</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                    </nav>
+
+
+
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column ">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://www.billboard.com/files/styles/900_wide/public/media/24-kehlani-sweetsexysavage-album-art-2017-billboard-1240.jpg" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+                                                                            <div>
+                                                                                <p class="title">Kehlani</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                    </nav>
+
+
+
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7a2sZPgis5pvVFCi1GwMETyj4-9pqfV_HEyJG0fD6GTq5xLj" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+                                                                            <div>
+                                                                                <p class="title">Lil pump</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                    </nav>
+
+
+
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -347,29 +511,24 @@
                                             <p class="title has-text-white has-text-left">
                                                 Radio Stations
                                             </p>
-                                            <div class="columns has-text-centered  is-multiline">
+                                            <div class="columns has-text-centered is-desktop is-multiline">
 
                                                 <div class="column ">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
                                                             <figure class="image is-square">
-                                                                <img src="https://i.pinimg.com/originals/a5/a5/65/a5a56520f037c134a39b2dec1f0e13c1.png" alt="Image">
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLdLtB7oj_f7XZY3zQpt4lcB5_cSu2viJFE4_y2sFZeDulpr7w" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
                                                                             <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">name</p>
+                                                                                <p class="title">Soul</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -380,8 +539,7 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -394,25 +552,22 @@
                                                 </div>
                                                 <div class="column ">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
                                                             <figure class="image is-square">
-                                                                <img src="https://assets.audiomack.com/younes95220/5bf2e5b3b9514d7eda82912352fd5ae293d6c495a7c050962d5f90db3c3a1c5c.jpeg?width=260&height=260&max=true" alt="Image">
+                                                                <img src="https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=750&q=80" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
-                                                                            <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">Name</p>
+
+                                                                            <div class=" ">
+
+                                                                                <p class="title ">R&amp;B</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -423,8 +578,7 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -437,25 +591,58 @@
                                                 </div>
                                                 <div class="column">
 
-                                                    <div class="box has-background-black-ter material_shadow_five">
-                                                        <div class="card-image">
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
                                                             <figure class="image is-square">
-                                                                <img src="https://townsquare.media/site/812/files/2017/06/Amine-Good-For-You.jpeg?w=980&q=75" alt="Image">
+                                                                <img src="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image">
                                                             </figure>
 
-                                                            <div class="card-content">
+                                                            <div class="card-content is-overlay">
                                                                 <div class="content">
                                                                     <nav class="level has-text-white">
-                                                                        <div class="level-item has-text-centered has-text-white">
-                                                                            <div>
-                                                                                <p class="heading">Album</p>
-                                                                                <p class="">Name</p>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="level-item has-text-centered">
                                                                             <div>
-                                                                                <p class="heading">Artist</p>
-                                                                                <p class="">Name</p>
+                                                                                <p class="title">Indie</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+                                                                    </nav>
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="columns has-text-centered is-desktop is-multiline">
+
+                                                <div class="column ">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://images.unsplash.com/photo-1557800634-95f2a96fbd64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+                                                                            <div>
+                                                                                <p class="title">90's Hip Hop</p>
+                                                                                <hr>
                                                                             </div>
                                                                         </div>
 
@@ -466,8 +653,78 @@
 
                                                                 </div>
 
-                                                                <a href="#" class="button  is-white">Listen now</a>
-                                                                <a href="#" class="button  is-info is-outlined">Download</a>
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column ">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://images.unsplash.com/photo-1543029505-07794a585851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+
+                                                                            <div class=" ">
+
+                                                                                <p class="title ">Boggie</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                    </nav>
+
+
+
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+
+                                                    <div class="box has-background-black-ter ">
+                                                        <div class="card-image  material_shadow_five">
+                                                            <figure class="image is-square">
+                                                                <img src="https://images.unsplash.com/photo-1550945771-515f118cef86?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Image">
+                                                            </figure>
+
+                                                            <div class="card-content is-overlay">
+                                                                <div class="content">
+                                                                    <nav class="level has-text-white">
+
+                                                                        <div class="level-item has-text-centered">
+                                                                            <div>
+                                                                                <p class="title">Instrumental</p>
+                                                                                <hr>
+                                                                            </div>
+                                                                        </div>
+                                                                    </nav>
+                                                                </div>
+
+                                                                <a href="#" class="button  is-white has-text-weight-bold">Listen now</a>
 
                                                             </div>
 
@@ -483,115 +740,87 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
                                 </div>
-                                <div class="section transparent">
-                                    <div class="container transparent is-spaced">
 
-                                        <div class="hero-head has-text-centered transparent">
-                                            <nav class="navbar is-fixed-bottom has-background-black-ter is-spaced">
-                                                <div class="navbar-brand transparent ">
-
-                                                    <a class="navbar-item  has-text-info  transparent">
-
-                                                        <figure class="image is-24x24 material_shadow_five">
-                                                            <img class="is-rounded" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/58381555_10161736483810118_4007018192961536000_n.jpg?_nc_cat=103&_nc_eui2=AeEpT3usDq3S4UtlR7JU6YOczV0KyZPGVjv5NGlv8O-3iCQhP5dUZAUGWitdqRvIx2cW3dIKEonxshEUdTSEy9wkBoLhjcDCXQGH0WvDHnCRag&_nc_ht=scontent-arn2-1.xx&oh=8009c39217b2b0c262d84b9ddd2695cc&oe=5D90DB21">
-                                                        </figure>
-
-
-                                                    </a>
-                                                    <a class="navbar-item has-text-info transparent" href="https://bulma.io/">
-                                                        Now Playing - Artist Name
-                                                    </a>
-
-                                                </div>
-                                                <div id="navMenu" class="navbar-menu transparent">
-
-
-                                                    <audio controls class=" has-background-black-ter">
-                                                        <source src="#" type="audio/ogg">
-                                                        <source src="#" type="audio/mpeg">
-                                                        Your browser does not support the audio element.
-                                                    </audio>
-                                                    <div class="navbar-start">
-                                                        <div class="navbar-item">
-
-
-
-                                                        </div>
-                                                        <div class="navbar-item">
-
-
-
-                                                        </div>
-                                                        <div class="navbar-item">
-
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div class="navbar-end">
-
-
-
-                                                        <div class="navbar-item">
-
-                                                            <i class="fas fa-random has-text-white"></i>
-
-                                                        </div>
-                                                        <div class="navbar-item">
-
-                                                            <i class="fas fa-list has-text-white"></i>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </nav>
-                                        </div>
-
-                                    </div>
-
-                                </div>
 
                             </div>
 
 
 
+
+                        </div>
+                        <div class="section transparent is-hidden-mobile is-hidden-tablet">
+                            <div class="container transparent is-spaced">
+
+                                <div class="hero-head has-text-centered transparent">
+                                    <nav class="navbar is-fixed-bottom has-background-black-ter is-spaced">
+                                        <div class="navbar-brand shadowless">
+                                            <audio controls class=" has-background-black-ter is-hidden-mobile ">
+
+                                                <source src="#" type="audio/ogg">
+                                                <source src="#" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+
+                                            <a class="navbar-item has-text-grey transparent" href="#">
+                                                <strong class="has-text-white">Now Playing</strong>
+                                                - Busta Rhymmes -
+                                                <i class="has-text-white">Touch It</i>
+                                            </a>
+                                            <span class="navbar-burger burger is-centered" data-target="navMenu">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                        <div id="navMenu" class="navbar-menu transparent">
+
+
+
+
+
+
+                                        </div>
+                                    </nav>
+                                </div>
+
+                            </div>
+
                         </div>
 
-
                     </div>
+
 
 
                 </div>
 
 
-
-
-
-                <footer class="footer is-paddingless shadowless transparent">
-                    <div class="box transparent">
-                        <div class="content has-text-centered transparent">
-                            <p class="is-4">
-
-                                <strong class="name logo has-text-grey">
-                                    Free Bulma templates by</strong>
-                                <span class="name logo has-text-black is-bold"><a href="https://michaelandreuzza.com" class="has-text-grey logo">Michael Andreuzza</a></span>
-
-                            </p>
-                        </div>
-                    </div>
-                </footer>
-
             </div>
 
+
         </div>
+
+
+
+
+
+        <footer class="footer is-paddingless shadowless transparent">
+            <div class="box transparent">
+                <div class="content has-text-centered transparent">
+                    <p class="is-4">
+
+                        <strong class="name logo has-text-grey">
+                            Free Bulma templates by</strong>
+                        <span class="name logo has-text-black is-bold"><a href="https://michaelandreuzza.com" class="has-text-grey logo">Michael Andreuzza</a></span>
+
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    </div>
     </div>
 
 
