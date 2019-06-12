@@ -25,6 +25,13 @@
 
 aside {
     position: fixed;
-    height: 100vh;
+    height: 80% ;
 }
+
+
+
+.card-footer {
+    border: none;
+}
+
 
