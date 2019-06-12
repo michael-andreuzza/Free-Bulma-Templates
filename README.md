@@ -2,7 +2,7 @@
 Free Bulma Templates
 
 
-I will be building some bulma transporte
+I will be building some bulma templates 
 
 here are the links:
 
