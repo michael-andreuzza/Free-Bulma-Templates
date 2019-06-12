@@ -10,6 +10,7 @@
 
 
     <link rel="stylesheet" href="../css/musicplayer-dashboard.css">
+    <link rel="stylesheet" href="../css/audio.css/audio_player.css">
 
 
 
@@ -41,11 +42,11 @@
 
 
 
-<body class=" has-navbar-fixed-top  has-background-black-ter">
+<body class=" has-navbar-fixed-top has-navbar-fixed-bottom  has-background-black-ter">
 
-    <div class="section transparent  transparent">
+    <div class="section transparent  transparent is-spaced">
 
-        <div class="container  transparent">
+        <div class="container  transparent ">
 
             <div class="hero-head transparent">
 
@@ -54,6 +55,8 @@
                         <a class="navbar-item has-text-info transparent" href="#">
                             Bulma Musicplayer Dashboard
                         </a>
+
+
                         <span class="navbar-burger burger is-centered" data-target="navMenu">
                             <span></span>
                             <span></span>
@@ -64,7 +67,9 @@
                     <div id="navMenu" class="navbar-menu transparent">
 
 
+
                         <div class="navbar-end transparent has-text-right">
+
                             <div class="navbar-item">
 
                                 <a class="navbar-item is-size-6 has-text-info  transparent">
@@ -99,32 +104,32 @@
                                     <div class="navbar-dropdown">
                                         <a class=" navbar-item  has-text-white">
 
-                                          
+
                                             Recently played
 
                                         </a>
                                         <a class=" navbar-item  has-text-white">
 
-                                         
+
                                             Liked Songs
 
                                         </a>
                                         <a class=" navbar-item  has-text-white">
 
-                                           Artists
+                                            Artists
 
                                         </a>
                                         <hr class="navbar-divider has-background-black">
 
                                         <a class=" navbar-item  has-text-white">
-                                            
+
                                             Albums
                                         </a>
                                     </div>
                                 </div>
                                 <div class="navbar-item  has-dropdown   is-hidden-desktop is-hidden-tablet">
                                     <a class="navbar-item is-size-6 has-text-info  ">
-                                       
+
                                         Playlist
                                         <i class="fas fa-sort-down"></i>
                                     </a>
@@ -152,6 +157,7 @@
                                                 <i class="fas fa-plus-circle"></i>
                                             </span>
                                             <span>Add New Playlist</span>
+
                                         </a>
 
                                     </div>
@@ -191,7 +197,7 @@
 
                                         <div class="box transparent has-text-left ">
 
-                                            
+
                                             <p class="menu-label has-text-white">
                                                 <i class="fas fa-home"></i>
                                                 Home
@@ -204,7 +210,7 @@
                                             <hr class="has-background-black-ter">
 
 
-                                            <p class="menu-label has-text-info has-text-weight-bold	">
+                                            <p class="menu-label has-text-info has-text-weight-bold	muli">
                                                 LIBRARY
                                             </p>
 
@@ -228,7 +234,7 @@
 
                                             <hr class="has-background-black-ter">
 
-                                            <p class="menu-label has-text-info has-text-weight-bold">
+                                            <p class="menu-label has-text-info has-text-weight-bold muli">
                                                 PLAYLISTS
                                             </p>
                                             <p class="menu-label has-text-white">
@@ -248,8 +254,11 @@
                                                     <span>Add New Playlist</span>
                                                 </a>
                                             </p>
-                                            
-                                            
+
+
+
+
+
 
 
                                         </div>
@@ -261,22 +270,15 @@
 
 
                                     <div class="section is-paddingless">
-                                        <div class="box transparent">
-                                            <div class="field has-addons ">
-                                                <div class="control is-expanded ">
-                                                    <input class="input has-text-left is-rounded" type="search" placeholder="Search for songs,artist,...">
-                                                </div>
-                                                <div class="control">
-                                                    <a class="button is-rounded is-info has-text-weight-bold">Search</a>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                        
+
 
 
 
                                         <div class="notification transparent">
-                                            <p class="title has-text-white has-text-left">
-                                                Explore
+                                            <p class="title has-text-info has-text-left  major_mono">
+                                                New <span class="has-text-white has-text-weight-light">Realeases</span>
                                             </p>
                                             <div class="columns has-text-centered is-desktop is-multiline">
 
@@ -411,11 +413,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="section">
+                                    <div class="section is-paddingless ">
 
                                         <div class="notification transparent">
-                                            <p class="title has-text-white has-text-left">
-                                                Radio Stations
+                                            <p class="title has-text-info has-text-left  major_mono">
+                                                Radio <span class="has-text-white has-text-weight-light">Stations</span>
                                             </p>
                                             <div class="columns has-text-centered is-desktop is-multiline">
 
@@ -566,6 +568,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -573,6 +576,30 @@
                 </div>
             </div>
         </div>
+        <nav class="navbar is-fixed-bottom  has-background-black-ter">
+            <div class="level ">
+                <div class="level-item ">
+                    <audio id="player" controls>
+                        <source src="#" type="audio/mp3" />
+                        <source src="#" type="audio/ogg" />
+                    </audio>
+                </div>
+                <div class="level-item">
+                    <div class="field has-addons ">
+                        <div class="control is-expanded ">
+                            <input class="input has-text-left is-rounded" type="search" placeholder="Search for songs,artist,...">
+                        </div>
+                        <div class="control">
+                            <a class="button is-rounded is-info has-text-weight-bold">Search</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </nav>
 
 
 
@@ -602,6 +629,8 @@
 
 
     <script src="../javascript/bulma.js"></script>
+    <script src="../javascript/audio.js"></script>
+
 </body>
 
 </html>
