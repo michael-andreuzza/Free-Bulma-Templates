@@ -1,10 +1,3 @@
-<!--Bulma-->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
-    <link href="https://unpkg.com/bulma-fluent@0.3.13/css/bulma.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 
 # Free-Bulma-Templates
 Free Bulma Templates
@@ -14,7 +7,7 @@ Free Bulma Templates
 
 here are the links:<p>
 
-<h3>Product landing:</h3>
+<h3 s>Product landing:</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/product.html
 
 <h3>Multipurpose template</h3>
