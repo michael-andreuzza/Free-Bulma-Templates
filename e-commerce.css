@@ -1,0 +1,56 @@
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+
+.transparent {
+    background-color: transparent !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+#overlayed_commerce_container {
+    
+    top: -200px;
+     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+
+    transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+    
+    border-radius: 3px !important;
+}
+
+
+
+.section.bg_commerce_landing {
+    background: url('https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.bg_comerce_sale {
+    background: url('https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+
+
