@@ -6,26 +6,24 @@ I will be building some bulma templates
 
 here are the links:
 
-<h1>Product landing:</h1>
+<h3>Product landing:</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/product.html
 
-Multipurpose template:
+<h3>Multipurpose template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/multipurpose.html
 
-Blog template:
+<h3>Blog template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/blog.html
 
-Blog-post template: 
+<h3>Blog-post template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/blog-post.html
 
-Music Player Dark template: 
+<h3>Music Player Dark template</h3> 
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/musicplayer-dashboard.html
 
-or
-
-Music Player Light template: 
+<h3>Music Player Light template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/musicplayer-dashboard-bright.html
 
 
-E-commerce Template:
+<h3>E-commerce Template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/e-commerce.html
