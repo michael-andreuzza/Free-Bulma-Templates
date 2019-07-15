@@ -30,5 +30,6 @@ here are the links:<p>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/e-commerce.html
 
 <h3>One page Contact me</h3>
-- https://michael-andreuzza.github.io/Free-Bulma-Templates/blob/master/templates/onepage.html
+-  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/onepage.html
+
 
