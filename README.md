@@ -28,3 +28,7 @@ here are the links:<p>
 
 <h3>E-commerce Template</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/e-commerce.html
+
+<h3>One page Contact me</h3>
+- https://github.com/michael-andreuzza/Free-Bulma-Templates/blob/master/templates/onepage.html
+
