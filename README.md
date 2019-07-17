@@ -7,10 +7,10 @@ Free Bulma Templates
 
 here are the links:<p>
   
-  <h3 s>Product landing:</h3>
+  <h3 s>Index:</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/index.html
 
-<h3 s>Product landing:</h3>
+<h3 s>Portfolio Sites:</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/portaflios.html
 
 <h3 s>Product landing:</h3>
