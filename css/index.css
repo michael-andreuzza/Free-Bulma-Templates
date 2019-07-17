@@ -21,3 +21,33 @@
 .transparent {
     background: transparent !important;
 }
+
+.card-footer,
+.card-footer-item {
+    border: none !important;
+}
+
+
+/* Ripple effect */
+.button {
+    background-position: center !important;
+    transition: background 0.8s !important;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .20) !important;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .20) !important;
+    -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .20) !important;
+    -ms-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .20) !important;
+    -o-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .20) !important;
+     border: none !important;
+
+    &:hover {
+        background: #666666 radial-gradient(circle, transparent 1%, #666666 1%) center/15000% !important;
+        color: #FAFAFA !important;
+    }
+}
+
+
+.button:active {
+    background-color: #777777 !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+}
