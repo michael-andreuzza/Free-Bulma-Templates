@@ -6,6 +6,12 @@ Free Bulma Templates
 <p>I will be building some bulma templates 
 
 here are the links:<p>
+  
+  <h3 s>Product landing:</h3>
+- https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/index.html
+
+<h3 s>Product landing:</h3>
+- https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/portaflios.html
 
 <h3 s>Product landing:</h3>
 - https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/product.html
