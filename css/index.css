@@ -5,12 +5,13 @@
 
 
 .section.bg_landing {
-    background: #02AAB0;
+    background:  #FFE5BB;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #00CDAC, #02AAB0);
+    background: -webkit-linear-gradient(45.34deg, #119DA4 5.66%, #9BC7B2 31.53%, #FFE5BB 50.01%, #FFBE99 72.18%, #FF886A 94.35%);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #00CDAC, #02AAB0);
+    background: linear-gradient(45.34deg, #119DA4 5.66%, #9BC7B2 31.53%, #FFE5BB 50.01%, #FFBE99 72.18%, #FF886A 94.35%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 * {
