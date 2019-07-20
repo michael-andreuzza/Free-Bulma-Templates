@@ -38,4 +38,13 @@ here are the links:<p>
 <h3>One page Contact me</h3>
 -  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/card.html
 
+<h3>Dashboard</h3>
+- https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/dashboard.html
+
+<h3>Dashboard Dark mode</h3>
+-  https://michael-andreuzza.github.io/Free-Bulma-Templates/templates/dark_dashboard.html
+
+
+
+
 
