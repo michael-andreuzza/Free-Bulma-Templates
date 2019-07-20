@@ -1,0 +1,88 @@
+/*--- SVG  */
+
+
+body,
+.navbar_dark{
+    background: #1B1B1B !important;
+   
+}
+.navbar-dark,
+.dropdown{
+        background: #1B1B1B !important;
+
+}
+
+.aside_shadow,
+.tabs_dark,
+.cards {
+    background: #1B1B1B !important;
+    border-radius: 10px !important;
+}
+
+/*--- End SVG  */
+.cards,
+.shadow_navbar_dark,
+.tabs_container{
+    
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px  !important;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px ;
+    -wekit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px ;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+
+
+
+.dark_mode_shadow {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px  !important;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px ;
+    -wekit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px ;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+
+
+/* * {
+    box-shadow: none !important;
+} */
+
+
+/* Tabs */
+
+
+
+.tabs li a {
+    text-decoration-line: none !important;
+}
+
+
+.tabs li.is-active a {
+    border-bottom-color: #ec008c !important;
+}
+
+
+
+
+/* End Tabs */
+
+/* Colorfull Cards */
+
+
+
+/* End Colorfull Cards */
