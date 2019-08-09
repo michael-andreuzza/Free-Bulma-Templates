@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.transparent {
+    background: transparent !important;
+}
+
+
+
+
+.section.bg_landing {
+    background: url('https://images.unsplash.com/photo-1532794083969-72280fadb167?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+   /*  background-color: #232e31 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.border{
+    border-radius: 10px ;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px !important;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px !important;
+    -ms-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px !important;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px, rgba(136, 153, 166, 0.15) 0px 0px 1px 1px !important;
+}
+
+
+.fas {
+    
+    color: #4F6367;
+}
+
+.list-item,
+.card-footer,
+.card-footer-item {
+    border: none !important;
+}
+
+
+.tabs ul {
+    border: none !important;
+}
