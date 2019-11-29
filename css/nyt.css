@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prata&display=swap');
+
+
+
+
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.transparent {
+    background: transparent !important;
+}
+
+
+
+
+body,
+.box,
+.notification {
+    background-color: #fcf4e5 !important;
+}
+
+.prata {
+    font-family: 'Prata', serif;
+
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
