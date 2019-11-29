@@ -41,3 +41,7 @@ body,
 .opensans {
     font-family: 'Open Sans', sans-serif;
 }
+
+.tabs a {
+    text-decoration: none;
+}
